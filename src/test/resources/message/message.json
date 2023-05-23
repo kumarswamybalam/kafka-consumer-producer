@@ -1,0 +1,9 @@
+{
+  "id" : "a9d99841-562a-4699-b3a4-29e29cd5657d",
+  "ruleId" : 1110,
+  "item" : 1244,
+  "discountType" : "DOLLAR_OFF",
+  "discountValue" : 10.00,
+  "beginTimeStamp" : "2019-06-14T00:00:00.00000",
+  "beginTimeStamp" : "2019-06-14T23:59:59.00000"
+}
