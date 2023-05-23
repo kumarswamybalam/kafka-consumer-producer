@@ -18,13 +18,12 @@ configurations {
 
 repositories {
 	mavenCentral()
-	jcenter()
 }
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
-	implementation 'org.codehaus.groovy:groovy:3.0.5'
+	implementation 'org.codehaus.groovy:groovy:3.0.7'
 	testImplementation('org.spockframework:spock-core:2.0-M3-groovy-3.0')
 	testImplementation('org.spockframework:spock-spring:2.0-M3-groovy-3.0')
 	testImplementation('org.springframework.boot:spring-boot-starter-test') {
@@ -33,13 +32,13 @@ dependencies {
 }
 
 dependencies {
-	implementation 'org.codehaus.groovy:groovy:3.0.5'
+	implementation 'org.codehaus.groovy:groovy:3.0.7'
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	implementation 'org.springframework.boot:spring-boot-starter-webflux'
 	implementation 'org.springframework.kafka:spring-kafka'
 	compileOnly 'org.projectlombok:lombok'
-	runtimeOnly 'com.h2database:h2:1.4.200'
+	runtimeOnly 'com.h2database:h2'
 	annotationProcessor 'org.projectlombok:lombok'
 
 	testImplementation 'org.spockframework:spock-core:2.0-M3-groovy-3.0'
