@@ -26,5 +26,4 @@ public class KafkaConsumerProducerApplication extends SpringBootServletInitializ
 		setProfile();
 		return builder.sources(KafkaConsumerProducerApplication.class);
 	}
-
 }
